@@ -1,46 +1,7 @@
-/* body {
-    background: rgb(31,31,32);
-    background: linear-gradient(90deg, rgba(31,31,32,1) 0%, rgba(73,73,64,1) 61%, rgba(80,80,63,1) 86%, rgba(93,93,60,1) 100%);
-} */
-
 body {
     background: rgb(31,31,32);
-}
-
-/* 
-.main-container {
-    height: 100vh;
-    width: 100%;
-    display: inline-block;
-    background: rgb(31,31,32);
     background: linear-gradient(90deg, rgba(31,31,32,1) 0%, rgba(73,73,64,1) 61%, rgba(80,80,63,1) 86%, rgba(93,93,60,1) 100%);
-    background-size: 300% 300%;
-    animation: color 15s ease-in-out infinite;
 }
-
-@keyframes color {
-    0%{
-        background-position: 0 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0 50%;
-    }
-}
-
-.gradient-bg {
-    margin: 0 0 0 0;
-    width: auto;
-    height: auto;
-    background: rgba(255, 255, 255, 0.14);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5.1px);
-    -webkit-backdrop-filter: blur(5.1px);
-    border: 1px transparent white;
-    border-radius: 5px;
-} */
 
 .navbar {
     background-color: transparent;
@@ -104,13 +65,23 @@ body {
 }
 
 .middle-container h1 {
-    margin: 0 0 0 0;
+    font-family: 'Anton';
+    margin: 20px 0 20px 0;
     color: #ffffff;
     font-weight: 800;
     font-size: 64px;
 }
 
+span {
+    color: goldenrod;
+}
+
+p{
+    font-family: 'Poppins';
+}
+
 .middle-button {
+    margin: 50px 0 50px 0;
     text-align: center;
 }
 
@@ -129,13 +100,14 @@ body {
 
 .btn-icon {
     display: inline-block;
-    background-color: rgb(219, 222, 41);
+    background-color: goldenrod;
     padding: 10px 10px 10px 10px;
     margin: 0 0 0 20px;
     border-radius: 100%;
 }
 
 .card-container {
+    margin: 0 0 50px 0;
     padding: 20px 100px 20px 100px;
     display: inline-block;
 }
@@ -144,7 +116,6 @@ body {
     width: 400px;
     height: 400px;
     display: inline-block;
-    border: 1px solid white;
     margin: 0 20px 0 0;
     border-radius: 10px;
 }
@@ -157,11 +128,19 @@ body {
 }
 
 .main-card-button {
-    margin-top: -60px;
+    border-radius: 50px;
+    padding: 10px 0px 0px 0px;
+    margin: -85px 45px 20px 45px;
     display:flex;
     flex-direction: row;
     justify-content: center;
     border: 1px solid white;
+    position: relative;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .eth-icon {
@@ -185,7 +164,7 @@ body {
 .card-btn {
     color: black;
     display: inline-block;
-    background-color: gold;
+    background-color: goldenrod;
     border-radius: 25px;
     border: 2px solid white;
     padding: 10px 20px 10px 20px;
